@@ -1,0 +1,35 @@
+\documentclass{ltxdoc}
+\usepackage{framed}
+\usepackage{holtxdoc}
+\begin{document}
+\title{The \xpackage{bidihl} Package}
+\author{Vafa Khalighi\\\xemail{persian-tex@tug.org}}
+\maketitle
+
+\begin{framed}
+This manual is incomplete and the package is experimental.
+\end{framed}
+
+\tableofcontents
+
+\section{Introduction}
+The \xpackage{soul} package provides the \cs{hl} command for
+highlighting text; unfortunately this packages does not work in right to left
+documents.
+
+The \xpackage{bidihl} package allows users to highlight text in both right to left
+and left to right directions; it needs the \xpackage{bidi} package and should always
+be loaded before \xpackage{bidi} package.
+
+
+\section{Basic usage}
+\begin{declcs}{bidihl} \M{text}
+\end{declcs}
+Highlights the text. The default highlighting box color is yellow; if a different color is desired, then simply define a new color with
+\texttt{bidihlcolor} as the name of the color; i.e.
+\begin{verbatim}
+\definecolor{bidihlcolor}{rgb}{1,0.7,0} % orange
+\end{verbatim}
+
+
+\end{document}

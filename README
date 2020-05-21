@@ -1,0 +1,27 @@
+_____________________
+The bidihl package
+v0.1c
+
+Experimental bidi-aware text highlighting
+
+The package allows users to highlight RTL and LTR texts.
+
+The package only works with `xelatex' format and should be
+loaded before `bidi' package.
+
+For more information, please see the documentation.
+
+
+Current version release date: 2015/07/07
+
+___________________
+Vafa Khalighi
+persian-tex@tug.org
+
+Copyright © 2015
+It may be distributed and/or modified under the LaTeX Project Public License,
+version 1.3c or higher (your choice). The latest version of
+this license is at: http://www.latex-project.org/lppl.txt
+
+This work is “author-maintained” (as per LPPL maintenance status)
+by Vafa Khalighi.
